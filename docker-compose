@@ -1,0 +1,17 @@
+version: "3.9"
+
+services:
+  myapp:
+    image: myapp
+    networks:
+      mynetwork:
+
+  db:
+    image: postgres
+    restart: always
+    networks:
+      mynetwork:
+
+networks:
+  mynetwork:
+    name: mynetwork
