@@ -1,7 +1,7 @@
 name: HawkScan
 on:
   push: 
-    branches: main 
+    branches: test
   
 jobs:
   hawkscan:
