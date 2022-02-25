@@ -1,8 +1,7 @@
 name: Auto Deploy Dev
 on:
   push:
-   # branches:
-     # - develop
+   branches: develop
 
 jobs:
   build:
