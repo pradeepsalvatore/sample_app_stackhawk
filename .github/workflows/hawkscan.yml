@@ -1,6 +1,6 @@
 name: HawkScan
-on:
-  push:
+#on:
+  # push:
 
 jobs:
   hawkscan:
