@@ -1,8 +1,8 @@
-name: Build and Deploy
+name: Auto Deploy Dev
 on:
   push:
     branches:
-      - master
+      - develop
 
 jobs:
   build:
